@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mental"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hrisi.solvingskills.MainActivity">
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#FEFF9C"
+        android:elevation="1dp"
+        android:fontFamily="cursive"
+        android:text="StarT Game"
+        android:textAllCaps="false"
+        android:textColor="#FEFF9C"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/quitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startBtn"
+        android:layout_alignBottom="@+id/startBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#FCFF8A"
+        android:fontFamily="cursive"
+        android:text="QuiT"
+        android:textAllCaps="false"
+        android:textColor="#FEFF9C"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

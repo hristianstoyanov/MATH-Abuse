@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6888F7"
+    tools:background="#6888F7">
+
+    <GridLayout
+        android:id="@+id/activity_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:columnCount="3"
+
+
+        android:orientation="horizontal"
+        tools:context="com.example.hrisi.solvingskills.gameActivity"
+        tools:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:background="#FF0000"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#00FF00"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#FF0000"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#00FF00"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#FF0000"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#00FF00"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#FF0000"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#00FF00"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="@dimen/box_size_width"
+            android:layout_height="@dimen/box_size_height"
+            android:background="#FF0000"
+            android:text="9" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/activity_game"
+        android:layout_alignLeft="@+id/activity_game"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/activity_game"
+        android:layout_alignStart="@+id/activity_game"
+        android:layout_marginBottom="11dp"
+        android:background="#00FF00"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/activity_game"
+        android:layout_alignRight="@+id/activity_game"
+        android:layout_alignTop="@+id/textViewBestScore"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Score:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewBestScore"
+        android:layout_centerHorizontal="true"
+        android:text="Time:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewBestScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activity_game"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/activity_game"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Best score:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Task"
+        android:textSize="25sp"
+        android:visibility="visible" />
+
+</RelativeLayout>
